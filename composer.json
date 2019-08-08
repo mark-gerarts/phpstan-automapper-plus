@@ -1,0 +1,20 @@
+{
+    "name": "mark-gerarts/phpstan-automapper-plus",
+    "description": "PHPStan configuration for AutoMapper+",
+    "type": "phpstan-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Gerarts",
+            "email": "mark.gerarts@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "extension.neon"
+            ]
+        }
+    }
+}
