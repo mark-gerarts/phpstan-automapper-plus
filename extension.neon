@@ -2,4 +2,4 @@ parameters:
     ignoreErrors:
         # See the README for some background as to why we suppress this.
         - '#Method AutoMapperPlus\\(Auto)?MapperInterface::map(Multiple|ToObject)?\(\) invoked with 3 parameters, 2 required#'
-    reportUnmatchedIgnoredErrors: true
+    reportUnmatchedIgnoredErrors: false
